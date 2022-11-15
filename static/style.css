@@ -1,0 +1,47 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.about {
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    height: 5.5rem;
+}
+
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#brand {
+    background: url("https://transitiontownmedia.org/wp-content/uploads/2022/02/TTMlogo_300x90.png") no-repeat;
+    background-size: unset;
+    background-position-x: 5px;
+    width: 1000px;
+}
+
+#abt-home {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#home-title {
+    padding-bottom: 20px;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
