@@ -45,3 +45,6 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+form {
+    padding-bottom: 20px;
+}

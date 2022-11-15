@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--suppress ALL-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="https://i2.wp.com/transitiontownmedia.org/wp-content/uploads/2022/02/cropped-TTMcircle_512x512.png?fit=32%2C32&ssl=1" sizes="32x32">
+    <title>Schedule an appointment</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QG7NYJ6S1J"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QG7NYJ6S1J');
+    </script>
+</head>
+<body>
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/" id="brand"></a>
+            </div>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+
+            <div id="navbar-main" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="/about">
+                        About
+                    </a>
+                    <a class="navbar-item" href="#">
+                        Schedule an appointment
+                    </a>
+                </div>
+            </div>
+    </nav>
+    <div class="container">
+        <h1 style="text-align: center" class="title is-2">Request an appointment</h1>
+        <h3 style="text-align: center" class="title is-5">Hours are by appointment and are typically Wednesday 10-11am and Sunday 9:30-11 am. Please complete the form below to request equipment or to make a donation appointment. We will follow up within 48 hours.</h3>
+        <hr id="top_bar">
+        <br>
+        <form name="appointment" method="post" data-netlify="true">
+            <div class="field">
+                <label class="label">First name</label>
+                <div class="control">
+                    <input class="input" type="text" name="fname" placeholder="First name" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Last name</label>
+                <div class="control">
+                    <input class="input" type="text" name="lname" placeholder="Last name" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                    <input class="input" type="email" placeholder="Email" name="email" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Phone number</label>
+                <div class="control">
+                    <input class="input" type="tel" name="tel" placeholder="Phone number" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Can this phone number recieve text messages?</label>
+                <div class="control">
+                    <label class="radio">
+                        <input type="radio" name="text_op" value="Yes" required>
+                        Yes
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="text_op" value="No">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Are you picking up or donating equipment?</label>
+                <div class="control">
+                    <label class="radio">
+                        <input type="radio" name="req_op" value="Pick-Up" required>
+                        Pick-Up
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="req_op" value="Donating">
+                        Donating
+                    </label>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">When would you like to pick-up/drop off your equipment</label>
+                <div class="control">
+                    <div class="select">
+                        <select name="timeframe">
+                            <option>ASAP</option>
+                            <option>Within 7 days</option>
+                            <option>Within 30 days</option>
+                            <option>Anytime</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="textfield">
+                    <label class="label">
+                        Please list the items you would like to pick-up or donate. All donations must be clean, working and unexpired. Large items like beds and recliners may not be donated but we will contact you with the recipient information.
+                    </label>
+                    <div class="control">
+                        <textarea class="textarea" name="blurb" style="width: 50%"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link" type="submit">Submit</button>
+                </div>
+                <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                </div>
+            </div>
+
+        </form>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    Caring Hearts lending Closet is an approved non-profit in the Commonwealth of Pennsylvania. Our fiscal sponsor is <a href="https://transitiontownmedia.org/">Transition Town Media</a> and through them we are able to provide donation receipt for tax purposes. If you are interested in receiving a donation receipt, please email us at CHLendingCloset@gmail.com.
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
