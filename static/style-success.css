@@ -34,6 +34,8 @@ html, body {
 
 .footer {
     margin: 0;
+    padding-bottom: 3%;
+    padding-top: 5%;
 }
 
 body {
@@ -42,10 +44,26 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-form {
-    padding-bottom: 20px;
+.map {
+    height: 41%;
+    width: 59%;
+    border: solid 3px black;
 }
 
-#construction {
-    margin-bottom: 32%;
+.text {
+    position: relative;
+    float: left;
+    margin-left: 61%;
+    top: -40%;
+}
+
+.hr-success {
+    margin-top: 0;
+}
+
+.footer-spacing {
+    margin: 0;
+    position: relative;
+    float: top;
+    top: -18%;
 }

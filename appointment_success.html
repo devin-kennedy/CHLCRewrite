@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QG7NYJ6S1J"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="/static/map.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QG7NYJ6S1J');
+    </script>
+    <link rel="stylesheet" href="/static/style-success.css">
+    <link rel="icon" href="https://i2.wp.com/transitiontownmedia.org/wp-content/uploads/2022/02/cropped-TTMcircle_512x512.png?fit=32%2C32&ssl=1" sizes="32x32">
+    <title>Received! | Caring Hearts Lending Closet</title>
+</head>
+<body>
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-brand" href="#" id="brand">
+                    <img src="https://transitiontownmedia.org/wp-content/uploads/2022/02/TTMlogo_300x90.png" alt="..." id="brand-img">
+                </a>
+            </div>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+
+            <div id="navbar-main" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="resources">
+                        Resources
+                    </a>
+                    <a class="navbar-item" href="appointment">
+                        Schedule an appointment
+                    </a>
+                </div>
+            </div>
+    </nav>
+    <div class="container">
+        <h1 class="title is-2" id="home-title">Success! Your appointment request has been received.</h1>
+        <h2 class="title is-3" id="abt-home1">We try to reply to all requests within 48 hours</h2>
+        <hr class="hr-success">
+        <h3 class="title is-4" id="abt-home">Here's some information about your appointment</h3>
+        <div class="map" id="map"></div>
+        <div class="text" id="info-text">
+            <div class="content is-normal">
+                <h1>Appointment Details:</h1>
+                <ul>
+                    <li>We are located at 940 Baltimore Pike inside <a href="https://www.bluechurch.org/">The Blue Church</a></li>
+                    <li>Please park in one of the visitor spots as you pull in the driveway</li>
+                    <li>Come to the first set of double blue doors</li>
+                    <li>We are inside and downstairs, pull hard on the doors as they stick</li>
+                    <li>Our phone number is <a href="tel:484-463-7603">(484)-463-7603</a>, please call or text with any questions</li>
+                </ul>
+            </div>
+        </div>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzRXxaB0H9WekY4fL2TPk4RtIm34f8SVc&callback=initMap&v=weekly"
+          defer
+        ></script>
+        <div class="footer-spacing">
+            <h2 class="title is-3">Placeholder!</h2>
+        </div>
+        <footer class="footer mb-0">
+            <div class="content has-text-centered mt-0">
+                <p>
+                    Caring Hearts lending Closet is an approved non-profit in the Commonwealth of Pennsylvania. Our fiscal sponsor is <a href="https://transitiontownmedia.org/">Transition Town Media</a> and through them we are able to provide donation receipt for tax purposes. If you are interested in receiving a donation receipt, please email us at CHLendingCloset@gmail.com.
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
